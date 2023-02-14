@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class TodoController {
     @GetMapping("/")
-    public ResponseEntity getTodoMessage(){
+    public ResponseEntity Test(){
         return new ResponseEntity("To-do Application !", HttpStatus.OK);
     }
 }
